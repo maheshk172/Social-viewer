@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="./libs/angular/angular.js"></script>
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./libs/bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+    <script src="./libs/jquery/jquery.js"></script>
+    <script src="./libs/bootstrap/js/bootstrap.js"> </script>
+
+    <script type="text/javascript">
+        angular.module("SocialViewer", []);
+    </script>
+
+   <script src="./components/github-viewer/github-viewer.controller.js"></script> 
+   <script src="./components/github-viewer/github-viewer.component.js"></script> 
+   <script src="./services/github.service.js"> </script>/
+   <script src="./components/landing-page/LandingPageController.js"></script> 
+  </head>
+
+  <body ng-app="SocialViewer">
+    <header class="container">
+    </header>
+        
+    <div class="container">
+      <div class="row">
+        <git-hub-viewer></git-hub-viewer>
+      </div>
+    </div>
+
+    <footer class="container"> 
+    </footer>
+  </body>
+
+ 
+
+</html>
