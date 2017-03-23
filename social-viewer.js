@@ -1,1 +1,1 @@
- angular.module("SocialViewer", ['ui.router']);
+ angular.module("SocialViewer", ['ui.router','ngSanitize']);
